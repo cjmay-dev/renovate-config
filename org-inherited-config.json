@@ -34,6 +34,7 @@
     {
       "groupName": "auto-merge git submodules",
       "groupSlug": "auto-merge-submodules",
+      "matchManagers": ["git-submodules"],
       "automerge": true,
       "automergeType": "pr",
       "automergeComment": "Automerge enabled for this PR."
